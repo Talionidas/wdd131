@@ -5,7 +5,7 @@ body {
     gap: 0;
 }
 header {
-    height: 135px;
+    height: auto;
     background-color: #333;
     color: white;
     text-align: left;
@@ -49,7 +49,7 @@ nav a:hover {
     padding: 1em;
 }
 footer {
-    height: 200px;
+    height: auto;
     background-color: #333;
     color: white;
     text-align: center;
