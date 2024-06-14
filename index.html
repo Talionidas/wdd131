@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>WDD 131 - Dynamic Web Fundamentals - Thierry Stahl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
+    <meta name="author" content="author-name">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-title">
+            <h1 id="course-tile">WDD 131 - Dynamic Web Fundamentals - Thierry Stahl</h1>
+            
+        </div>
+        <div class="nav-links">
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/thierry-stahl-703851213/">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19?lang=eng">Scripture</a></li>
+                <li><a href="Final-Project">Final Project</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+
+    <main class="main">
+
+        <!--section one--> 
+
+        <section class="card" id="about-me">
+            <div class="about-me">
+                <h2>About Me</h2>
+            </div>
+            <div class="text-photo">
+                <p id="intro">My name is Thierry, and I go by Teddy. <br>
+                    I was born in Switzerland and raised mostly there, besides 6 years in France. <br>
+                    My Wife and I live Lenzburg, Switzerland. I am currently working as a Junior ICT Engineer. <br>
+                    I love to go our for a jog or to play Volleyball with Friends, Otherwise I am either playing Videogames or watching Anime.
+                </p>
+                <img id="profile-jpg" src="./images/profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="city-info">
+                <h3 id="Lenzburg">Lenzburg, Switzerland</h3>
+                <hr id="custom-line">
+            </div>
+            <div class="Switzerland-info">
+                <figure>
+                    <img id="Switzerland-flag" src="./images/Flag-of-Switzerland.png" alt="Switzerland Flag">
+                    
+                    <figcaption>Official Switzerland Flag</figcaption>
+                </figure>
+                    <p id="state-info">
+                    Switzerland, officially the Swiss Confederation, is a landlocked country located in west-central Europe. 
+                    The Largest Cities are Zürich, Geneva, and Basel.
+                    Switzerland originates from the Old Swiss Confederacy established in the Late Middle Ages.
+                    It has four main linguistic and cultural regions: German, French, Italian and Romansh.
+
+                    <br>
+
+                    Switzerland is one of the world's most developed countries, with the highest nominal wealth per adult and the eighth-highest gross domestic product (GDP) per capita.
+                    Switzerland ranks first in the Human Development Index since 2021 and performs highly also on several international metrics, including economic competitiveness and democratic governance.
+                    </p>
+            </div>
+        </section>
+
+        <!--section two-->
+
+        <section class="card" id="web-dev-resources">
+            <div class="web-dev-resources">
+                <h2>Web Dev Resources</h2>
+            </div>
+            <div class="resource-list">  
+                <ul id="resource-links">
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://www.coursera.org/">Coursera</a></li>
+                    <li><a href="https://www.youtube.com/">YouTube</a></li>
+                </ul>
+            </div>  
+        </section>
+    </main>
+    <footer>
+        <div class="footer-top"> 
+            <p id="author"> &copy; 2024 Thierry Stahl Switzerland</p>
+        </div>
+        <p id="modification-date">Last Modification: <span id="date-time"></span></p>
+    </footer>
+</body>
+
+</html>
