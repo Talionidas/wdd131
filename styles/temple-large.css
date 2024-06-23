@@ -1,0 +1,46 @@
+@media screen and (min-width: 640px) {
+    
+    .container {
+        grid-template-columns: 1fr 1fr;
+    } 
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    figcaption {
+        font-size: 20px;
+    }
+
+
+
+}
