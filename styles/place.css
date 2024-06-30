@@ -1,0 +1,153 @@
+:root {
+    --font-family: "Roboto";
+    --background-color: rgb(252, 164, 164);
+    --background-yellow: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-thin {
+    font-family: "Roboto";
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-family: var(--font-family);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5%;
+    background-color: #fd0000;
+    margin-top: 25px;
+    
+}
+
+/* pseudo-class */
+h1:hover {
+    background-color: rgb(255, 247, 134);
+}
+
+.data {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: rgb(255, 165, 165);
+    border-radius: 15px;
+    
+    
+}
+
+
+main {
+    font-family: Roboto ;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+div:hover {
+    background-color:  #ff5b5b;
+}
+
+
+.header-border {
+    border-top: solid #ff0000;
+    padding-bottom: 22px;
+}
+
+
+.alps {
+    width: 100%;
+}
+
+
+.data-container, .weather-container {
+    width: 100%;
+    display: grid;
+    align-content: center; 
+}
+
+
+.table {
+
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 0 ;
+    
+}
+
+td {
+    padding: 5px;
+}
+
+.key-bold {
+    font-weight: bold;
+}
+
+.weather {
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(255, 165, 165);
+    border-radius: 15px;
+    
+    
+}
+
+.rainy-svg {
+    margin-left: 45%;
+}
+
+
+
+footer {
+    border-top: solid black;
+    border-bottom: solid black;
+    background-color: #ff0000;
+    padding: 10px;
+    font-size:14px;
+    text-align: center;
+}
+
+.footer-top, .footer-bottom {
+    background-color: var(--background-color);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.footer-top {
+    padding-top: 12px;
+    margin-top: 12px;
+    
+}
+
+.footer-bottom {
+    padding-bottom: 11px;
+    margin-bottom: 11px;
+}
+
+
+footer::first-line {
+    background-color: var(--background-yellow);
+}
