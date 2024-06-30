@@ -41,7 +41,7 @@ h1 {
 
 /* pseudo-class */
 h1:hover {
-    background-color: rgb(255, 247, 134);
+    background-color: rgb(255, 134, 134);
 }
 
 .data {

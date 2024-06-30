@@ -14,7 +14,7 @@
     }
 
     div:hover {
-        background-color: white;
+        background-color: rgb(252, 168, 168);
     }
 
     
@@ -78,7 +78,7 @@
     }
 
     /* pseudo element-required */
-    .cloudy-svg::after {
+    .rainy-svg::after {
         content: "- prediction";
     }
 
