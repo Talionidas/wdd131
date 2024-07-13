@@ -1,0 +1,9 @@
+@media (min-width: 768px) {
+    header h1 {
+        width:00%; 
+        margin: 0 auto; 
+        margin-bottom: 10px;
+        
+    }
+
+}
