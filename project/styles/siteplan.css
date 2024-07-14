@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.primary-color {
+    color: #130080; 
+}
+
+.primary-bg-color {
+    background-color: #130080; 
+    padding: 10px 20px;
+    border: none;
+    color: #EFBF04; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.secondary-color {
+    color: #EFBF04; 
+}
+
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.card {
+    display: block;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #130080;
+}
+
+
+.card p {
+    font-size: 18px;
+    color: #333;
+}
+
+.card ol,
+.card ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card ol {
+    color: #333; 
+    list-style-type: decimal; 
+}
+
+.card ul {
+    color: #333; 
+    list-style-type: disc; 
+}
+
+.card ol li,
+.card ul li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#color-schema-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#color-schema-card .color-info {
+    display: flex;
+    gap: 10px;
+}
+
+#color-schema-card .color-code {
+    font-weight: bold;
+    width: 120px;
+    text-align: right;
+    margin: 0;
+}
+
+#navy-blue-hex-code{
+    padding-left: 72px;
+}
+
+.navy-blue {
+    margin-top: -5px;
+}
+
+.gold {
+    margin-top: -5px;
+}
+
+.color-box {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ac9b58;
+    margin-top: 5px;
+
+}
+
+.color-box p {
+    width: 50px;
+    height: 50px;
+}
+
+#wireframe-large {
+    width: 350px;
+    height: auto;
+    display: flex;
+    
+}
+
+#wireframe-mobile {
+    width: 150px;
+    height: auto;
+    display: flex;
+    margin-left: 90px;
+    
+}
