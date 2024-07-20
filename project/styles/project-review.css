@@ -1,0 +1,137 @@
+header h1 {
+    background-color: white;
+    text-align: center;
+    color: #130080;
+    width: 100%;
+}
+
+
+
+
+
+
+body {
+    background-color: #f5f5f5;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#reviewCountContainer {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#reviewCountContainer h2 {
+    margin: 0; 
+    padding: 10px; 
+    color: #333; 
+    
+}
+
+#reviewCount {
+    display: inline;
+    font-weight: bold;
+    color: #130080;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #e0f7fa;
+    color: black;
+}
+
+.footer-top, .footer-bottom {
+    background-color: white;
+    margin: 0;
+    color: black;
+}
+
+
+
+
+
+
+
+.confirmation-message-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    margin-top: 20px; 
+}
+
+
+
+
+.confirmation-message {
+    background-color: #130080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+.nav-links {
+    background-color: #EFBF04;
+    width: 100%;
+    margin-top: -20px;
+    padding: 15px 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    max-width: 800%;
+
+}
+nav a {
+    background-color: #130080;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: "Calibri";
+    font-size: 25px
+}
+nav a:hover {
+    text-decoration:overline;
+    border: 1px solid #ffffff;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+nav ul li {
+    flex: 1 1 100%;
+    margin: 0 10px;
+    
+}
