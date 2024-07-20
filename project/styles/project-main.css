@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-links {
+    background-color: #EFBF04;
+    width: 100%;
+    margin-top: -20px;
+    padding: 15px 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    max-width: 800%;
+
+}
+nav a {
+    background-color: #130080;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: "Calibri";
+    font-size: 25px
+}
+nav a:hover {
+    text-decoration:overline;
+    border: 1px solid #ffffff;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+nav ul li {
+    flex: 1 1 100%;
+    margin: 0 10px;
+    
+}
+
+ /*Main / Cards*/
+
+
+ main {
+    margin: auto;
+    padding: 20px;
+    background-color: #E0115F;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #130080;
+}
+
+h1 {
+    background-color: #E0115F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+    gap: 20px;
+}
+
+.card {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card h3 {
+    background: #EFBF04;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.card button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background: #EFBF04;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: #130080;
+}
+
+
+/*lazyload*/
+
+img {
+    display: block;
+    align-self: center;
+    width: 100%;
+    animation: fadeIn 15s forwards
+}
+
+@keyframes fadeIn {
+   0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+nav {
+    display: none
+}
+
+.closeButton {
+    display: none;
+}
+
+.open  {
+    background-color: #255ea8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.show  { 
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 9;display: block;
+}
+
+.custom-select {
+    min-width: 350px;
+  }
+  
+.custom-select select {
+    appearance: none;
+    width: 100%;
+    font-size: 1.15rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+  }
+
+  footer {
+    background-color: #130080;
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff
+}
+
+footer .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+  /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+
+  .burgerMenu {
+    width: 50px;
+    height: 25px;
+}
+
+.nav-links {
+    display: none;
+}

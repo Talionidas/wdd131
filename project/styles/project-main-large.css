@@ -1,0 +1,47 @@
+@media screen and (min-width: 640px) {
+    
+    .res-grid {
+        grid-template-columns: 1fr 1fr;
+    } 
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .custom-select {
+        display: none;
+      }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        gap: 20px;
+    }
+
+    .nav-links {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 740px) {
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .burgerMenu {
+        display: none;
+    }
+
+    nav a {
+        font-size: 20px;
+    }  
+
+    .custom-select {
+        display: none;
+      }
+
+}
+
